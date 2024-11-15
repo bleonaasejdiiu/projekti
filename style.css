@@ -35,3 +35,56 @@
   display: block;
   margin-top: -50px
 }
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding-top: 20px;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+.footer-item {
+  padding: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.footer-item2 {
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.footer-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.footer-item h3 {
+  padding-left: 100px;
+}
+
+.footer-item1 {
+  font-size: 20px;
+ 
+}
+.find{
+	  display: flex;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.icon {
+  color: var(--link-color);
+  font-size: 50px;
+}
+.moon, .sun{
+   height: 50px;
+   width: 50px;
+   font-size: 20px;
+   background-color: transparent;
+   border: none;
+}
