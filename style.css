@@ -35,10 +35,60 @@
   display: block;
   margin-top: -50px
 }
+
+.festival-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px; 
+  margin-top: -5px; 
+}
+
+.festival-info h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0; 
+}
+
+.festival-info p {
+  font-size: 1.1rem; 
+  line-height: 1.6; 
+  color: #555;
+  max-width: 800px;
+  margin: 10px 0; 
+}
+
+.grid.full-width {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+}
+
+.grid-item {
+  flex: 1;
+  width: 100%;
+}
+
+.grid-item iframe {
+  width: 100%; 
+  height: 450px;
+  border: none; 
+}
+
+.grid-item h4,p {
+  margin: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: var(--bg-color);
+  background-color:whitesmoke;
   color: var(--text-color);
   padding-top: 20px;
   padding-left: 80px;
