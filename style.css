@@ -142,7 +142,7 @@
 /*-----------TICKETS-----------*/
 
 .pjesa1{
-  background-color: rgb(118, 18, 203);
+  background-color: rgb(94,75,98);
   width: 100%;
   height: 400px;
   color: white;
@@ -168,12 +168,15 @@
   width: 250px; 
   border-right: 2px solid grey; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Fillon e padukshme */
+  transform: translateY(50px); /* Fillon poshtë */
+  animation: slideIn 1s forwards; /* Lëviz drejt pozicionit */
 }
 
 .card h1 {
   font-size: 33px;
   margin-bottom: 15px;
-  color: rgb(84, 9, 132);
+  color: rgb(51, 41, 53);
 }
 
 .container .price {
@@ -185,8 +188,8 @@
   color: black;
 }
 .button1 {
-  background-color: rgb(118, 18, 203);
-  color: black;
+  background-color: rgb(94,75,98);
+  color: white;
   border: none;
   border-radius: 1px;
   padding: 10px 30px;
@@ -198,5 +201,38 @@
   background-color:rgb(84, 9, 132) ;
 }
 #button{
-  margin-top:30px ;
+  margin-top:36px ;
+}
+
+.card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Animacioni i butonit kur kalon mbi të */
+.button1 {
+  transition: all 0.3s ease-in-out;
+}
+
+.button1:hover {
+  transform: scale(1.1); /* Zmadhohet butoni */
+}
+
+/* Kyçja e animacionit */
+@keyframes slideIn {
+  to {
+    opacity: 1; /* Bëhet i dukshëm */
+    transform: translateY(0); /* Kthehet në pozicionin fillestar */
+  }
 }
