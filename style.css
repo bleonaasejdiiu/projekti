@@ -123,6 +123,7 @@
 
 .footer-item1 {
   font-size: 20px;
+  padding-top: 50px;
  
 }
 .find{
@@ -142,6 +143,7 @@
    background-color: transparent;
    border: none;
 }
+<<<<<<< HEAD
 #header {
   margin-top: 50px;
   background-color: rgb(225, 80, 45);
@@ -154,6 +156,20 @@
 #header h1 {
   color: white; 
   font-size: 3rem; 
+=======
+
+/*-----------TICKETS-----------*/
+
+.pjesa1{
+  background-color: rgb(118, 18, 203);
+  width: 100%;
+  height: 400px;
+  color: white;
+  text-align: center;
+  float: inline-start;
+  align-content: center;
+  font-size: 25px
+>>>>>>> c6e50b8803b1035f5af7c43e1daee55838e1f484
 }
 #container {
 
@@ -209,8 +225,21 @@
 	/*padding-left: 30px; */ 
 	text-align: center;
 }
+<<<<<<< HEAD
 .news:hover{
 	background-color: rgb(227, 80, 45);
 	padding-top: 3px;
+=======
+
+.button1:hover {
+  transform: scale(1.1); /* Zmadhohet butoni */
+>>>>>>> c6e50b8803b1035f5af7c43e1daee55838e1f484
 }
 
+/* Kyçja e animacionit */
+@keyframes slideIn {
+  to {
+    opacity: 1; /* Bëhet i dukshëm */
+    transform: translateY(0); /* Kthehet në pozicionin fillestar */
+  }
+}
