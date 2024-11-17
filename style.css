@@ -119,6 +119,7 @@
 
 .footer-item1 {
   font-size: 20px;
+  padding-top: 50px;
  
 }
 .find{
@@ -126,17 +127,6 @@
     width: 100%;
     margin-left: 50px;
     margin-top: 80px;
-}
-.icon {
-  color: var(--link-color);
-  font-size: 50px;
-}
-.moon, .sun{
-   height: 50px;
-   width: 50px;
-   font-size: 20px;
-   background-color: transparent;
-   border: none;
 }
 
 /*-----------TICKETS-----------*/
@@ -236,3 +226,168 @@
     transform: translateY(0); /* Kthehet në pozicionin fillestar */
   }
 }
+
+/*animacioni tickets*/
+.tickets-logo-section {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tickets-logo-section h2 {
+  font-size: 2em;
+  color: rgb(94, 75, 98);
+  margin-bottom: 20px;
+}
+
+.tickets-logos {
+  display: flex;              /* Radhit në një rresht */
+  justify-content: center;    /* Qendro ikonat */
+  gap: 20px;                  /* Hapësirë mes ikonave */
+  flex-wrap: wrap;            /* Lejo që të mbështillen për ekranet e vogla */
+}
+
+.ticket-icon {
+  font-size: 40px;            /* Madhësia e ikonave */
+  color: rgb(84, 9, 132);
+  animation: bounce 2s infinite ease-in-out; /* Anima ikonat */
+}
+
+.ticket-icon:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.ticket-icon:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.ticket-icon:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.ticket-icon:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.ticket-icon:nth-child(6) {
+  animation-delay: 1s;
+}
+
+/* Animacioni */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Lëviz lart */
+  }
+  100% {
+    transform: translateY(0); /* Kthehet poshtë */
+}
+}
+/*-------------Pjesa FAQ------------------*/
+.faq-container{
+  width: 100%;
+  padding-top: 10px;
+  
+}
+#faq1{
+  width: 100%;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.faq-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq-label {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.faq-label:hover {
+  background-color: #0056b3;
+}
+
+.faq-label::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.faq-toggle:checked + .faq-label::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.faq-toggle:checked ~ .faq-content {
+  max-height: 200px; /* Adjust based on content size 
+  padding: 15px;
+}
+
+.faq-content p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+*/

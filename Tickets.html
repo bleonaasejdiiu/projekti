@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tickets</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -47,17 +48,108 @@
 
     </div>
 
+    <!--ANIMACIONI ME ICONA TICKETS-->
+    <div class="tickets-logo-section">
+      <h2>Available Tickets</h2>
+      <div class="tickets-logos">
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+          <i class="fa-solid fa-ticket ticket-icon"></i>
+      </div>
+  </div>
+
+     <!----------PJESA FAQ Q&A-------------->
+  <div class="faq-container">
+    <div class="faq-item">
+        
+        <select id="faq1"> 
+          <option value="faq1">Can I refund my ticket?</option>
+           <option value="refund">All tickets are non-transferable and non-refundable.</option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq2">Can I buy a parking ticket?</label>
+        <select id="faq2">
+            <option value="parking">Yes, parking tickets will be available for purchase soon.</option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq3">What are the festival dates?</label>
+        <select id="faq3">
+            <option value="dates">Sunny Hill Festival 2024 dates are 25, 26, 27, and 28 July.</option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq4">How can I transfer my ticket to another person?</label>
+        <select id="faq4">
+            <option value="transfer">All tickets are non-transferable and non-refundable.</option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq5">What is the difference between a Regular and VIP ticket?</label>
+        <select id="faq5">
+            <option value="vip-regular">
+                Regular ticket holders will enter through the main gate and experience the festival right in front of the main stage. 
+                VIP ticket holders will have a special entrance and a designated VIP hangout space.
+            </option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq6">Where can I buy tickets?</label>
+        <select id="faq6">
+            <option value="buy">
+                All festival tickets will be available online on our website: sunnyhillfestival.com. All tickets are 4-day passes.
+            </option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq7">The minimum age to attend?</label>
+        <select id="faq7">
+            <option value="age">
+                The minimum age to attend the festival alone is 16. Youngsters below 16 should be accompanied by their parents or any other adult.
+            </option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq8">How do I get to the festival?</label>
+        <select id="faq8">
+            <option value="location">
+                Our new venue is in the village of Bërnicë e Poshtme, just a 15-minute drive from the city. Shuttle buses are available for the Festival.
+            </option>
+        </select>
+    </div>
+
+    <div class="faq-item">
+        <label for="faq9">Can I work as a volunteer at the festival?</label>
+        <select id="faq9">
+            <option value="volunteer">
+                Yes, you can work as a volunteer. Information will be posted on our website and Facebook page.
+            </option>
+        </select>
+    </div>
+</div>
+        
+      
+
+
+
+
     <div class="footer">
             
-        <div class="footer-item1"> 
-
-           <button id="dark-mode" class="moon"><i class="fa-solid fa-moon"></i></button>
-       <button id="light-mode" class="sun"><i class="fa-solid fa-sun"></i></button> 
+        <div class="footer-item1">
              <p>Volunteer</p>
            <p>Privacy Policy</p>
             <p>Terms Of Use</p>
-
-
         </div> 
 
     
@@ -66,10 +158,6 @@
        <p>Sunny Hill Festival</p>
        <p>Enver Maloku, Nr.82</p>
        <p>Pristina 10000 Kosove</p>
-       
-       
-       
-
        
        <div class="find">
         <a href="#"><i class="fa-brands fa-square-facebook icon"></i></a>
